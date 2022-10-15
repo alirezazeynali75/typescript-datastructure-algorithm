@@ -1,0 +1,8 @@
+{
+  "name": "typescript-datastructure-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alirezazeynali75/typescript-datastructure-algorithm.git",
+  "author": "alirezazeynali <alirezazeynali75@gmail.com>",
+  "license": "MIT"
+}
