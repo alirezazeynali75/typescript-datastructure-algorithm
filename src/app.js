@@ -1,4 +1,10 @@
 "use strict";
+//import { convertCompilerOptionsFromJson, isConstructorDeclaration } from "typescript";
 exports.__esModule = true;
-var typescript_1 = require("typescript");
-typescript_1.convertCompilerOptionsFromJson;
+//convertCompilerOptionsFromJson;
+var binary_1 = require("./search/binary");
+var linearSearch_1 = require("./search/linearSearch");
+var result = (0, binary_1.binarySearch)([1, 3, 6, 8, 9, 11, 14, 15], 6);
+var linearSearchResult = (0, linearSearch_1.linearSearch)([1, 10, 3, 4, 7, 12, 5, 8], 9);
+console.log(result);
+console.log(linearSearchResult);
